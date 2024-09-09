@@ -1,0 +1,19 @@
+{
+    "name": "migue/taller2",
+    "description": "Taller PHP Intermedio",
+    "autoload": {
+        "psr-4": {
+            "App\\":"src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MigueVar11",
+            "email": "miguel.vargas22069@ucaldas.edu.co"
+        }
+    ],
+    "require": {
+        "symfony/mailer": "^7.1",
+        "setasign/fpdf": "^1.8"
+    }
+}
